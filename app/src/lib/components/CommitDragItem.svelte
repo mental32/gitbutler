@@ -128,29 +128,6 @@
 	</Dropzone>
 {/snippet}
 
-<!--
-<div class="commit-list-item">
-	<div
-		class="commit-card-wrapper"
-		use:dropzone={{
-			active: 'amend-dz-active',
-			hover: 'amend-dz-hover',
-			accepts: acceptAmend(commit),
-			onDrop: onAmend(commit)
-		}}
-		use:dropzone={{
-			active: 'squash-dz-active',
-			hover: 'squash-dz-hover',
-			accepts: acceptSquash(commit),
-			onDrop: onSquash(commit)
-		}}
-	>
-		<DropzoneOverlay class="amend-dz-marker" label="Amend" />
-		<DropzoneOverlay class="squash-dz-marker" label="Squash" />
-	</div>
-</div>
--->
-
 <style>
 	.commit-list-item {
 		display: flex;
